@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto;
+    border:2px solid black;
+    border-radius:.5rem;
+    width:50rem;
+    min-height: 20rem;
+}
+.title-div{
+    width:100%;
+    text-align: center;
+    background-color: rgb(28, 74, 88);
+    color:#fff;
+    line-height: 1.9;
+}
+.title-div h2{
+    padding:1rem;
+}
+.add-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-task-icon{
+    font-size: 1.5rem;
+    padding:.5rem;
+    background-color: rgb(16, 122, 122);
+    height: 2.2rem;
+    width:3rem;
+    color:#fff;
+}
+.add-task-input{
+    width:40rem;
+    margin:.5rem auto;
+    height:2rem;
+    font-size:1.5rem;
+    padding:.5rem;
+    outline: none;
+}
+.content{
+    width:100%;
+    margin-top:2rem;
+    text-align: center;
+}
+.content-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.content-ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:.7rem;
+    border:1px solid black;
+    padding:.5rem;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    background-color: rgb(238, 220, 220);
+}
+.icon{
+    margin-left:1rem;
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+.edit{
+    color:rgb(139, 255, 30);
+}
+.del{
+    color:red;
+}
